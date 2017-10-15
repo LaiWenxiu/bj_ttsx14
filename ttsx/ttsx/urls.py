@@ -19,5 +19,7 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^user/', include('tt_user.urls')),
-    url(r'^register/',include('tt_user.urls'))
+    url(r'^register/',include('tt_user.urls')),
+    url(r'^call/',include('tt_user.urls')),
+
 ]
